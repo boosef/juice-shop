@@ -27,12 +27,12 @@ body:
      label: What SKU is this for?
      description: Select all that apply.
      multiple: true
-       options:
-         - a
-         - b
-         - c
-         - d
-         - Other
+     options:
+       - a
+       - b
+       - c
+       - d
+       - Other
    validations:
      required: true
  - type: input
