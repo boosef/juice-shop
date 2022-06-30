@@ -5,62 +5,56 @@ labels: ["quote-request"]
 assignees:
   - boosef
 body:
-
  - type: input
-    id: customer
-    attributes:
-      label: Customer Name
-      description: Enter the name of the customer. 
-      placeholder: XYZ Pvt. Ltd.
-    validations:
-      required: true
-      
+   id: customer
+   attributes:
+     label: Customer Name
+     description: Enter the name of the customer. 
+     placeholder: XYZ Pvt. Ltd.
+   validations:
+     required: true     
  - type: input
-    id: rep
-    attributes:
-      label: AE Name
-      description: Enter the handle of the AE, if known. 
-      placeholder: @boosef
-    validations:
-      required: false
-      
-  - type: dropdown
-    id: product
-    attributes:
-      label: What SKU is this for?
-      description: Select all that apply.
-      multiple: true
-      options:
-        - a
-        - b
-        - c
-        - d
-        - Other
-    validations:
-      required: true
-
-  - type: input
-    id: seats
-    attributes:
-      label: Number of Licenses
-      placeholder: e.g. 50
-    validations:
-      required: true
-      
-  - type: input
-    id: term
-    attributes:
-      label: Term of Contract
-      placeholder: Start date to End date in DD/MM/YYYY format
-    validations:
-      required: true
-      
-  - type: textarea
-    id: details
-    attributes:
-      label: Additional Details
-      description: Please share any additional details here.
-    validations:
-      required: false
+   id: rep
+   attributes:
+     label: AE Name
+     description: Enter the handle of the AE, if known. 
+     placeholder: @boosef
+   validations:
+     required: false     
+ - type: dropdown
+   id: product
+   attributes:
+     label: What SKU is this for?
+     description: Select all that apply.
+     multiple: true
+       options:
+         - a
+         - b
+         - c
+         - d
+         - Other
+   validations:
+     required: true
+ - type: input
+   id: seats
+   attributes:
+     label: Number of Licenses
+     placeholder: e.g. 50
+   validations:
+     required: true    
+ - type: input
+   id: term
+   attributes:
+     label: Term of Contract
+     placeholder: Start date to End date in DD/MM/YYYY format
+   validations:
+     required: true   
+ - type: textarea
+   id: details
+   attributes:
+     label: Additional Details
+     description: Please share any additional details here.
+   validations:
+     required: false
 
  
