@@ -18,7 +18,7 @@ body:
    attributes:
      label: AE Name
      description: Enter the handle of the AE, if known. 
-     placeholder: @boosef
+     placeholder: boosef
    validations:
      required: false     
  - type: dropdown
